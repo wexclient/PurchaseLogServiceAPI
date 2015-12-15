@@ -31,13 +31,6 @@
         	<version>${axis2.version}</version>
  		</dependency>
 		
- <!-- dependency>
-      <groupId>org.apache.xmlbeans</groupId>
-      <artifactId>xmlbeans</artifactId>
-      <version>2.4.0</version>
-      <scope>compile</scope>
-    </dependency-->
-     
 		<dependency>
 			<groupId>org.apache.axis2</groupId>
 			<artifactId>axis2-adb</artifactId>
@@ -81,7 +74,7 @@
                 </executions>
             </plugin>
             
-            <plugin>
+			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-source-plugin</artifactId>
 				<executions>
